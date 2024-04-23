@@ -18,9 +18,9 @@ Takes [historic school names table](https://iiif.lib.harvard.edu/manifests/view/
 In the Jupyter notebook, customize local (CSV) input, geonames username, and ["fuzzy_value"](https://lucene.apache.org/core/7_3_1/core/org/apache/lucene/search/FuzzyQuery.html)
 
 ## TO DO:
-* Find Nearest Address
-* https://www.geonames.org/maps/us-reverse-geocoder.html#findNearestAddress
-#Table image OCR?
-#hmbd.org search automation
-#other "State Association Black Schools"
+* [Find Nearest Address](https://www.geonames.org/maps/us-reverse-geocoder.html#findNearestAddress
+* Table image OCR
+* hmbd.org search automation
+* other "State Association Black Schools"
+* 
 ### Cook 2024
