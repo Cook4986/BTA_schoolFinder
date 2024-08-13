@@ -1,26 +1,25 @@
 # BTA_schoolFinder
-[Black Teacher Archive](https://curiosity.lib.harvard.edu/black-teacher-archive) project code
+[Black Teacher Archive](https://curiosity.lib.harvard.edu/black-teacher-archive) historic school search automation
 
 ## Functionality
-Takes [historic school names table](https://iiif.lib.harvard.edu/manifests/view/drs:494225847$14b) and returns:
+Takes [historic school names tables](https://iiif.lib.harvard.edu/manifests/view/drs:494225847$14b) and returns:
 * Latitude/Longitude
-* [GeoNames](https://www.geonames.org/) Name
+* [GeoNames](https://www.geonames.org/) or [Historical Marker Database](https://www.hmdb.org/) placename
 * [Feature Code](https://www.geonames.org/export/codes.html)
-* [Feature Class](https://www.geonames.org/source-code/javadoc/org/geonames/FeatureClass.html)
 
 ## Requirements
 * Python 3.8
 * [Pandas](https://pandas.pydata.org/docs/index.html)
-* 
-* Requests
+* [Selenium](https://www.selenium.dev/documentation/webdriver/getting_started/)
+* [Requests](https://github.com/psf/requests)
 
 ## Usage
-In the Jupyter notebook, customize local (CSV) input, geonames username, and ["fuzzy_value"](https://lucene.apache.org/core/7_3_1/core/org/apache/lucene/search/FuzzyQuery.html)
+In the Jupyter notebook, customize local (CSV) input and ["fuzzy_value"](https://lucene.apache.org/core/7_3_1/core/org/apache/lucene/search/FuzzyQuery.html)
 
 ## TO DO:
-* [Find Nearest Address](https://www.geonames.org/maps/us-reverse-geocoder.html#findNearestAddress
-* Table image OCR
-* hmbd.org search automation
-* other "State Association Black Schools"
-* 
+* Find Nearest Address (GeoNames):
+* Error message details (HMDB)
+* https://www.geonames.org/maps/us-reverse-geocoder.html#findNearestAddress
+* Select table image OCR tool ("pre-prep")
+
 ### Cook 2024
