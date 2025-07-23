@@ -17,9 +17,8 @@ Takes [historic school names tables](https://iiif.lib.harvard.edu/manifests/view
 In the Jupyter notebook, customize local (CSV) input and ["fuzzy_value"](https://lucene.apache.org/core/7_3_1/core/org/apache/lucene/search/FuzzyQuery.html)
 
 ## TO DO:
-* Find Nearest Address (GeoNames):
+* Find Nearest Address ([GeoNames](https://www.geonames.org/maps/us-reverse-geocoder.html#findNearestAddress):
 * Error message details (HMDB)
-* https://www.geonames.org/maps/us-reverse-geocoder.html#findNearestAddress
 * Select table image OCR tool ("pre-prep")
 
 ### Cook 2024
